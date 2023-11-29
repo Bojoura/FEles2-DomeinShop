@@ -15,7 +15,10 @@ Table of Contents:
 /*////////////////////////
     1. Global Styles
 ////////////////////////*/
-
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
 
 
 /*////////////////////////
@@ -31,9 +34,109 @@ Table of Contents:
 
 
 /*///////////// 3.1 Header /////////////*/
+.mountains {
+    background-image: url("../assets/images/mountains.jpg");
+    background-size: cover;
+    background-position: center;
+    }
 
+.content-mountains{
+    text-align: center;
+    width: 1000px;
+    padding: 25px 0 350px 0;
+    margin: 0 auto;
+}
 
+h1 {
+    font-size: 100px;
+    font-weight: 650;
+    color: #1C2B32;
+}
 
+input {
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 25px 0 0 25px;
+    color: black;
+    margin: -5px;
+    text-align: left;
+    width: 250px;
+    padding: 20px
+}
+
+input::placeholder{
+    color: black;
+}
+
+.content-mountains button{
+    border-radius: 0 25px 25px 0;
+    background-color: #1C2B32;
+    color: white;
+    margin: -5px;
+    padding: 20px
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    color: #1C2B32;
+}
+
+blockquote {
+    border: 1px #D5D8DE;
+    border-radius: 10px;
+    box-shadow: #D5D8DE 0 5px 25px 5px;
+    margin: 10px;
+    padding: 70px;
+}
+
+blockquote p img {
+    float: left;
+    margin-right: 20px;
+    margin-top: -10px;
+}
+
+blockquote img {
+    width: 44px;
+    height: 44px;
+    float: left;
+    margin-right: 25px;
+}
+
+blockquote cite {
+    display: block;
+    margin-top: 5px;
+    padding: 15px 65px 5px 65px;
+    line-height: 44px;
+}
+
+img {
+    border-radius: 10px;
+    max-width: 1000px;
+}
+
+button.contact {
+    border-radius: 150px 150px 150px 150px;
+    background-color: #1C2B32;
+    color: white;
+    padding: 25px;
+    font-size: 18px;
+
+}
+
+.selector{
+    content: '\25B6';
+}
+
+footer {
+    background-color: #1C2B32;
+    text-align: center;
+    color: white;
+}
 /*///////////// 3.2 Testimonial /////////////*/
 
 
